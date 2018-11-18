@@ -37,7 +37,7 @@ class DataSet():
 
     def __init__(self):
         self.read_line = 5000
-        self.filename = 'D:/TianChi/original/3rd_security_train/train.csv'
+        self.filename = '../original/3rd_security_train/train.csv'
         self.file_label_dict = None
 
     def read_csv(self):
